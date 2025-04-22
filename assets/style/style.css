@@ -1,0 +1,107 @@
+/* HTML SIZING */
+html{
+    box-sizing:border-box;
+}
+
+*, *:before, *:after{
+    box-sizing:inherit;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+  }
+
+main{
+  width:90vw;
+  margin:40px 20px 40px 20px;
+}
+
+body{
+  margin:auto;
+}
+
+/* HEADER */
+
+header.primary{
+  background-color:#aca694;
+  text-align:center;
+  width:100%;
+  padding:30px;
+}
+
+header.primary h1{
+  font-size:2.4rem;
+  color:aliceblue;
+}
+header.primary h2{
+  color:aliceblue;
+}
+
+header.primary nav{
+  max-width:900px;
+  margin:20px auto;
+  background-color:#aca694;
+}
+
+header.primary nav ul{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+header.primary nav ul li{
+  list-style-type:none;
+  margin-bottom:5px;
+}
+
+header.primary nav ul li a{
+  border:3px solid #586f63;
+  background-color:#586f63;
+  border-radius:15px;
+  color:aliceblue;
+  display:block;
+  padding:7px 7px 7px 7px;
+  text-align:center;
+  transition:0.3s;
+  text-decoration:none;
+  font-size:0.9rem;
+}
+
+header.primary nav ul li a:hover{
+  border:3px solid #21301e;
+  background-color:#21301e;
+  color:aliceblue;
+}
+
+header.primary nav ul li a.active{
+  background-color:#21301e;
+  border:3px solid #21301e;
+}
+
+header.primary nav.sticky-top{
+  background-color:#aca694;
+}
+
+/* OTHER STUFF */
+
+
+/* FOOTER */
+#colophon{
+  background-color:#aca694;
+  color:aliceblue;
+  width:90vw;
+  width:100%;
+  padding:20px;
+}
+
+#colophon p{
+  text-align:center;
+  font-size:0.6rem;
+}
+
+
+/* UTILITY CLASSES */
+
+
+/* MEDIA QUERIES */
