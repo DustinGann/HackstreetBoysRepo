@@ -12,10 +12,6 @@ img{
     height:auto;
   }
 
-main{
-  width:90vw;
-  margin:40px 20px 40px 20px;
-}
 
 body{
   margin:auto;
@@ -28,6 +24,7 @@ header.primary{
   text-align:center;
   width:100%;
   padding:30px;
+
 }
 
 header.primary h1{
@@ -39,9 +36,14 @@ header.primary h2{
 }
 
 header.primary nav{
-  max-width:900px;
-  margin:20px auto;
+padding: 30px;
   background-color:#aca694;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  display: block;
+  
 }
 
 header.primary nav ul{
@@ -79,9 +81,11 @@ header.primary nav ul li a.active{
   border:3px solid #21301e;
 }
 
-header.primary nav.sticky-top{
+header.primary nav.nav2{
   background-color:#aca694;
+
 }
+
 
 /* OTHER STUFF */
 
