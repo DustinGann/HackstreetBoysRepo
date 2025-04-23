@@ -20,50 +20,61 @@ body{
 /* HEADER */
 
 header.primary{
-  background-color:#aca694;
+  background-image: url("/assets/img/banner.jpg");
+  background-size: cover;
   text-align:center;
   width:100%;
-  padding:30px;
-
+  min-height: 100vh;
 }
 
+
 header.primary h1{
-  font-size:2.4rem;
+  font-size:5rem;
   color:aliceblue;
+  padding-top: 300px;
 }
 header.primary h2{
   color:aliceblue;
+  font-size: 3rem;
+  margin: 0;
 }
 
-header.primary nav{
-padding: 30px;
-  background-color:#aca694;
-  position: fixed;
-  top: 0;
-  z-index: 1000;
-  width: 100%;
-  display: block;
-  
+
+.nav2 img{
+  display: flex;
+  justify-content: left;
+  width: 120px;
+  height: auto;
+  padding: 10px;
 }
+.nav2{
+background-color: #aca694;
+display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
 
 header.primary nav ul{
   display:flex;
   flex-direction:row;
-  justify-content:space-around;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
 }
 
 header.primary nav ul li{
   list-style-type:none;
-  margin-bottom:5px;
+  padding-right: 75px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 header.primary nav ul li a{
-  border:3px solid #586f63;
-  background-color:#586f63;
+ 
   border-radius:15px;
   color:aliceblue;
   display:block;
-  padding:7px 7px 7px 7px;
+  padding:15px 15px 15px 15px;
   text-align:center;
   transition:0.3s;
   text-decoration:none;
@@ -81,10 +92,8 @@ header.primary nav ul li a.active{
   border:3px solid #21301e;
 }
 
-header.primary nav.nav2{
-  background-color:#aca694;
 
-}
+
 
 
 /* OTHER STUFF */
@@ -94,7 +103,6 @@ header.primary nav.nav2{
 #colophon{
   background-color:#aca694;
   color:aliceblue;
-  width:90vw;
   width:100%;
   padding:20px;
 }
