@@ -19,13 +19,14 @@ body{
 
 /* HEADER */
 
-header.primary{
+header.primary#home {
   background-image: url("/assets/img/banner.jpg");
   background-size: cover;
   text-align:center;
   width:100%;
   min-height: 100vh;
 }
+
 
 
 header.primary h1{
@@ -82,7 +83,7 @@ header.primary nav ul li a{
 }
 
 header.primary nav ul li a:hover{
-  border:3px solid #21301e;
+ 
   background-color:#21301e;
   color:aliceblue;
 }
