@@ -1,6 +1,7 @@
 /* HTML SIZING */
 html{
     box-sizing:border-box;
+    overflow-x:hidden;
 }
 
 *, *:before, *:after{
@@ -16,10 +17,10 @@ body{
   margin:auto;
 }
 
-/* HEADER */
+
 
 header.primary#home {
-  background-image: url("/assets/img/banner.jpg");
+  background-image: url("/assets/img/banneroptimized.jpg");
   background-size: cover;
   text-align:center;
   width:100%;
@@ -29,16 +30,20 @@ header.primary#home {
 
 header.primary h1{
   font-size:5rem;
-  color:#aca694;
+  color:#c6c0ad;
   padding-top: 300px;
-  font-family: "Cal Sans", sans-serif;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  text-shadow: 6px 5px 3px rgba(0, 0, 0, 0.3);
+  
   
 }
 header.primary h2{
-  color:#aca694;
+  color:#c6c0ad;
   font-size: 3rem;
   margin: 0;
-  font-family: "Cal Sans", sans-serif;
+  text-shadow: 6px 5px 3px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
 }
 
 
@@ -50,7 +55,7 @@ header.primary h2{
   padding: 10px 10px 10px 25px;
 }
 .nav2{
-background-color: #aca694;
+background-color: #c6c0ad;
 display: flex;
   justify-content: space-between;
   align-items: center;
@@ -67,7 +72,7 @@ header.primary nav ul{
 header.primary nav ul li{
  
   list-style-type:none;
-  padding-right: 75px;
+  padding-right: 60px;
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -81,8 +86,8 @@ header.primary nav ul li a{
   text-align:center;
   transition:0.3s;
   text-decoration:none;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 23px;
+
 }
 
 header.primary nav ul li a:hover{
@@ -96,15 +101,150 @@ header.primary nav ul li a.active{
 
 }
 
-section.secondary div div div h4{
-  font-size:3rem;
+section.secondary div div div div h4{
+  text-align:center;
+  font-size:3.5rem;
 }
 
-section.secondary p{
-  text-align:justify;
+section.secondary div div div div p{
+  font-size:1.5rem;
+  padding-top:30px;
 }
+ /*Home -   -   -   Home*/
+ main#main-home section#content.secondary {
+  background:#d9d9d9;
+  width:100vw;
+  height:400px;
+
+}
+
+ div.row {
+  width: 100vw;
+ }
+
+ main#main-home section#content.secondary {
+  background:#d9d9d9;
+  height:400px;
+  
+}
+
+main#main-home div#explore {
+  margin:0;
+  width:30vw;
+   background:#d9d9d9;
+  height:400px;
+  padding:20px;
+}
+
+#explore h4 {
+  padding-top:80px;
+  font-size: 2.5rem;
+  color:#586f63;
+}
+
+span {
+  color:#21301e;
+}
+/*
+section.secondary div h4{
+  text-align:center;
+}
+
+section.secondary div p{
+  text-align:center;
+  padding:30px;
+} */
+
+/*CARDS*/
+section.cards {
+  padding: 100px 0; /* Instead of fixed height */
+}
+
+.cards h4 {
+  color: #586f63;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+section#showcase.row {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+div.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card img {
+  height: 400px; 
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #586f63;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+h5.card-title {
+  margin-top: 10px;
+  color: #21301e;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+  color: #ffffff;
+}
+
+a.btn.btn-outline-primary {
+  border-color: #d9d9d9;
+  color: #d9d9d9;
+  margin-top: 10px;
+}
+
+
+ /* RENTALS -   -   - RENTALS*/
+
 
 /* RIVER RENTALS */
+
+main#rentals {
+  
+}
+main#rentals h4{
+  font-size: 3rem;
+}
+
+main#rentals p{
+  font-size: 16px
+}
+
+main#rentals .rentals-content {
+  margin: 20px;
+  display:flex;
+  background-color: #586f63;
+}
+main#rentals section#rentals-content1{
+  background-color: #aca694;
+  
+}
+
+main#rentals div.river-rent-txt{
+  margin: 20px;
+  
+}
+
+
+
 
 /* CAMPING */
 
