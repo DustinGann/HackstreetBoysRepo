@@ -118,7 +118,7 @@ section.secondary div div div div p{
 
 }
 
- div.row {
+main#main-home div.row {
   width: 100vw;
  }
 
@@ -199,7 +199,7 @@ h5.card-title {
   font-size: 1.5rem;
 }
 
-p {
+div.card-body p {
   font-size: 0.9rem;
   line-height: 1.4rem;
   color: #ffffff;
@@ -222,16 +222,19 @@ main#rentals {
 }
 main#rentals h4{
   font-size: 3rem;
+  text-align: center;
 }
 
 main#rentals p{
-  font-size: 16px
+  font-size: 16px;
+  text-align: center;
 }
 
 main#rentals .rentals-content {
-  margin: 20px;
+  margin:20px 60px 20px 60px;
   display:flex;
   background-color: #586f63;
+  height: 700px;
 }
 main#rentals section#rentals-content1{
   background-color: #aca694;
@@ -239,10 +242,16 @@ main#rentals section#rentals-content1{
 }
 
 main#rentals div.river-rent-txt{
-  margin: 20px;
+  width: 50%;
+  padding: 20px;
   
 }
 
+main#rentals .rentals-content img{
+  max-width: 50%;
+  width: 100%;
+  
+}
 
 
 
