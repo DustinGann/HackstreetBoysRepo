@@ -20,7 +20,7 @@ body{
 
 
 header.primary#home {
-  background-image: url("/assets/img/banneroptimized.jpg");
+  background-image: url("../img/banneroptimized.jpg");
   background-size: cover;
   text-align:center;
   width:100%;
@@ -216,9 +216,11 @@ a.btn.btn-outline-primary {
 
 
 /* RIVER RENTALS */
-
 main#rentals {
-  
+
+}
+main#rentals section#canoe-rentals {
+  padding-top: 100px;
 }
 main#rentals h4{
   font-size: 3rem;
@@ -226,15 +228,17 @@ main#rentals h4{
 }
 
 main#rentals p{
-  font-size: 16px;
+  font-size: 25px;
   text-align: center;
 }
 
 main#rentals .rentals-content {
-  margin:20px 60px 20px 60px;
+  margin:90px 60px 20px 60px;
   display:flex;
   background-color: #586f63;
   height: 700px;
+  
+
 }
 main#rentals section#rentals-content1{
   background-color: #aca694;
@@ -242,8 +246,14 @@ main#rentals section#rentals-content1{
 }
 
 main#rentals div.river-rent-txt{
+  font-size: 1.8rem;
   width: 50%;
   padding: 20px;
+  text-align: center;
+}
+
+main#rentals div.river-rent-txt h5{
+  font-size: 4rem;
   
 }
 
@@ -256,6 +266,15 @@ main#rentals .rentals-content img{
 
 
 /* CAMPING */
+
+
+section#camping{
+  padding-top: 100px;
+}
+
+
+
+
 
 .camping-content {
   margin-bottom:30px;
