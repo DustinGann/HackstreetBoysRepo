@@ -104,11 +104,14 @@ header.primary nav ul li a.active{
 section.secondary div div div div h4{
   text-align:center;
   font-size:3.5rem;
+  
 }
 
 section.secondary div div div div p{
+  font-weight:650;
   font-size:1.5rem;
   padding-top:30px;
+  
 }
  /*Home -   -   -   Home*/
  main#main-home section#content.secondary {
@@ -119,18 +122,19 @@ section.secondary div div div div p{
 }
 
 main#main-home div.row {
-  width: 100vw;
+  width: 100%;
  }
 
  main#main-home section#content.secondary {
   background:#d9d9d9;
   height:400px;
   
+  
 }
 
 main#main-home div#explore {
   margin:0;
-  width:30vw;
+  
    background:#d9d9d9;
   height:400px;
   padding:20px;
@@ -138,7 +142,7 @@ main#main-home div#explore {
 
 #explore h4 {
   padding-top:80px;
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color:#586f63;
 }
 
@@ -158,6 +162,7 @@ section.secondary div p{
 /*CARDS*/
 section.cards {
   padding: 100px 0; /* Instead of fixed height */
+  
 }
 
 .cards h4 {
@@ -197,10 +202,12 @@ h5.card-title {
   margin-top: 10px;
   color: #21301e;
   font-size: 1.5rem;
+  font-weight: 600;
 }
 
 div.card-body p {
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 1.4rem;
   color: #ffffff;
 }
@@ -221,15 +228,26 @@ main#rentals {
 }
 main#rentals section#canoe-rentals {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 main#rentals h4{
-  font-size: 3rem;
+  font-weight: bold;
+  font-size: 4rem;
   text-align: center;
+  color: #586f63;
+  margin-bottom: 30px; 
 }
 
 main#rentals p{
+  font-weight: bold;
   font-size: 25px;
   text-align: center;
+  margin: 0 50px 0 50px ;
+}
+
+main#rentals  div#rentals-river-head p{
+  
+  font-size: 2rem;
 }
 
 main#rentals .rentals-content {
@@ -244,8 +262,17 @@ main#rentals section#rentals-content1{
   background-color: #aca694;
   
 }
+main#rentals section#rentals-content2{
+  margin-bottom: 50px;
+  
+}
+
+main#rentals p#rentals-river-final{
+  margin:0 150px 0 150px;
+}
 
 main#rentals div.river-rent-txt{
+  font-weight:650;
   font-size: 1.8rem;
   width: 50%;
   padding: 20px;
@@ -273,7 +300,30 @@ section#camping{
 }
 
 
+section#camping h4{
 
+
+  margin-top: 90px;
+}
+  
+section#camping p{
+
+
+margin-bottom: 90px;   
+}
+
+
+main#rentals section.camping-content{
+margin-bottom: 150px;
+}
+
+
+section#camping li{
+  font-weight:600;
+}
+section#camping a{
+  font-weight:500;
+}
 
 
 .camping-content {
