@@ -13,6 +13,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cal+Sans&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="assets/script/map.js"></script>
   <title>IT Pearl Group Project</title>
 </head>
 <body>
@@ -40,9 +43,10 @@
         </li>
       </ul>
     </nav>
-    
+    <div id="header-title">
        <h1>Big Buffalo River Retreats</h1>
        <h2>Your Gateway to the Outdoors</h2>
+    </div>
     </header>
   
     <section id="content" class="secondary">
@@ -68,10 +72,8 @@
                <img src="assets/img/optimized-images/canoeing2.jpg">
                 <div class="card-body">
                  <h5 class="card-title">Canoeing</h5>
-                  <p> Explore the crystal-clear waters of the Buffalo National River by canoe! Rentals and shuttle services are available to make your adventure easy and enjoyable.
-    
-    </p>
-                 <a href="#" class="btn btn-outline-primary">Book Now</a>
+                  <p> Explore the crystal-clear waters of the Buffalo National River by canoe! Rentals and shuttle services are available to make your adventure easy and enjoyable.</p>
+                 <a href="rentals.html" class="btn btn-outline-primary">Book Now</a>
                 </div>
               </div>
             </article>
@@ -81,7 +83,7 @@
                 <div class="card-body">
                  <h5 class="card-title">Camping</h5>
                   <p>Enjoy campfires, stargazing, and waking up to the sounds of nature. Don't forget to bring your hiking boots to explore nearby trails during the day!</p>
-                 <a href="#" class="btn btn-outline-primary">Book Now</a>
+                 <a href="rentals.html" class="btn btn-outline-primary">Book Now</a>
                 </div>
               </div>
             </article>
@@ -91,7 +93,7 @@
                 <div class="card-body">
                  <h5 class="card-title">Things to Do</h5>
                   <p>Whether you’re into fishing, wildlife watching, or simply relaxing in a pristine setting, there's no shortage of ways to connect with nature.</p>
-                 <a href="#" class="btn btn-outline-primary">See More</a>
+                 <a href="things-to-do.html" class="btn btn-outline-primary">See More</a>
                 </div>
               </div>
             </article>
@@ -101,15 +103,26 @@
       
       <br>
 
-  <footer id="colophon">
-    <div id="copyright">
-      <h6>&copy; Big Buffalo River Retreats 2025</h6>
-      <p>AR-43, Compton,AR 72624</p>
-      <p>1-800-555-5555</p>
-      <p>yadda@gmail.com</p>
-    </div>
-  </footer>
+      
+      <footer id="colophon">
+        <div class="footer-container">
+          <div id="footer-left">
+            <h6>&copy; Big Buffalo River Retreats 2025</h6>
+            <p>yadda@gmail.com</p>
+            <p>AR-43, Compton, AR 72624</p>
+            <p>1-800-555-5555</p>
+          </div>
+      
+          <div id="footer-location">
+            <a href="https://www.google.com/maps?q=36.026009,-93.365169" target="_blank" class="directions-button">
+              Get Directions
+            </a>
+            
+          </div>
+      
+          <div id="map"></div>
+        </div>
+      </footer>
 </main>
-
 </body>
 </html>

@@ -9,6 +9,13 @@
   <meta name="robots" content="noindex">
   <link href="assets/style/style.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cal+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="assets/script/map.js"></script>
   <title>IT Pearl Group Project</title>
 </head>
 <body>
@@ -43,7 +50,7 @@
   <section id="canoe-rentals">
     <div id="rentals-river-head">
     <h4 >Canoe Rentals</h4>
-      <p>Explore the beauty of the Buffalo National River with one of our rentals,  which are manufactured right here in Newton County Arkansas</p>
+      <p>Explore the beauty of the Buffalo National River with one of our rentals, <br> which are manufactured right here in Newton County Arkansas</p>
     </div>
         <section class="rentals-content" id="rentals-content1">
           <div class="river-rent-txt" >
@@ -172,14 +179,26 @@
 </section>
 </section><!--  end of camping-->
 </section>
-  <footer id="colophon">
-    <div id="copyright">
+<footer id="colophon">
+  <div class="footer-container">
+    <div id="footer-left">
       <h6>&copy; Big Buffalo River Retreats 2025</h6>
-      <p>AR-43, Compton,AR 72624</p>
-      <p>1-800-555-5555</p>
       <p>yadda@gmail.com</p>
+      <p>AR-43, Compton, AR 72624</p>
+      <p>1-800-555-5555</p>
+      
     </div>
-  </footer>
+
+    <div id="footer-location">
+      <a href="https://www.google.com/maps?q=36.026009,-93.365169" target="_blank" class="directions-button">
+        Get Directions
+      </a>
+      
+    </div>
+
+    <div id="map"></div>
+  </div>
+</footer>
 </main>
 </body>
 </html>

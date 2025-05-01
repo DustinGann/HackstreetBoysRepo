@@ -26,12 +26,25 @@ header.primary#home {
   width:100%;
   min-height: 100vh;
 }
+header #header-title
+{
+  height: 100vh;
 
+  display: flex;
+  align-items: center; /* Vertical centering */
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
 
 header.primary h1{
+
+ 
+  
   font-size:5rem;
   color:#c6c0ad;
-  padding-top: 300px;
+  
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
   text-shadow: 6px 5px 3px rgba(0, 0, 0, 0.3);
@@ -104,7 +117,6 @@ header.primary nav ul li a.active{
 section.secondary div div div div h4{
   text-align:center;
   font-size:3.5rem;
-  
 }
 
 section.secondary div div div div p{
@@ -117,8 +129,6 @@ section.secondary div div div div p{
  main#main-home section#content.secondary {
   background:#d9d9d9;
   width:100vw;
-  height:400px;
-
 }
 
 main#main-home div.row {
@@ -127,21 +137,16 @@ main#main-home div.row {
 
  main#main-home section#content.secondary {
   background:#d9d9d9;
-  height:400px;
-  
-  
-}
+ }
 
 main#main-home div#explore {
   margin:0;
-  
    background:#d9d9d9;
-  height:400px;
-  padding:20px;
+  padding:40px;
+  padding-bottom: 50px;
 }
 
 #explore h4 {
-  padding-top:80px;
   font-size: 3.5rem;
   color:#586f63;
 }
@@ -218,20 +223,90 @@ a.btn.btn-outline-primary {
   margin-top: 10px;
 }
 
+ /* THINGS -   -   - THINGS*/
+ main#things section#content.secondary {
+  text-align:center; 
+
+}
+
+main#things section#content.secondary h1 {
+background-image: url("../img/optimized-images/thingstodo.png");
+background-size:cover;
+background-position:bottom;
+height:300px;
+background-repeat:no-repeat;
+text-align:center;
+padding:150px;
+font-family: "Lilita One", sans-serif;
+font-weight: 400;
+text-shadow: 6px 5px 3px rgba(0, 0, 0, 0.3);
+font-size: 4.5rem;
+color:#d9d9d9;
+}
+
+div.things{
+  padding-top:40px;
+  padding-bottom:40px;
+  font-size:1.2rem;
+  text-align:center;
+  font-weight:600;
+}
+section.to-do .to-do-row {
+  background-color: #586f63;
+  overflow: hidden;
+}
+
+
+section.to-do div.container img {
+ width: 664px;
+ height: 300px;
+ object-fit:cover;
+ border-radius: 20px;
+ height:300px;
+}
+
+section.to-do div.container div.row {
+  background-color: #586f63;
+  border-radius: 20px;
+}
+
+section.to-do div.hackstreetboyz {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+
+section.to-do .to-do-text {
+  padding: 20px;
+  text-align: left;
+}
+
+section.to-do .to-do-text h4 {
+  font-weight: 650;
+  color:#21301e;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+section.to-do .to-do-text p {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #d9d9d9;
+}
+
+
 
  /* RENTALS -   -   - RENTALS*/
 
 
 /* RIVER RENTALS */
-main#rentals {
-
-}
 main#rentals section#canoe-rentals {
   padding-top: 100px;
   padding-bottom: 50px;
 }
 main#rentals h4{
-  font-weight: bold;
+  font-family: "Lilita One", sans-serif;
+  
   font-size: 4rem;
   text-align: center;
   color: #586f63;
@@ -248,6 +323,7 @@ main#rentals p{
 main#rentals  div#rentals-river-head p{
   
   font-size: 2rem;
+  
 }
 
 main#rentals .rentals-content {
@@ -258,8 +334,10 @@ main#rentals .rentals-content {
   
 
 }
+
 main#rentals section#rentals-content1{
   background-color: #aca694;
+  border-radius: 20px;
   
 }
 main#rentals section#rentals-content2{
@@ -272,6 +350,7 @@ main#rentals p#rentals-river-final{
 }
 
 main#rentals div.river-rent-txt{
+  
   font-weight:650;
   font-size: 1.8rem;
   width: 50%;
@@ -284,9 +363,10 @@ main#rentals div.river-rent-txt h5{
   
 }
 
-main#rentals .rentals-content img{
-  max-width: 50%;
-  width: 100%;
+main#rentals section.rentals-content img{
+  width: 50%;
+  height: 100%;
+  object-fit:cover;
   
 }
 
@@ -310,6 +390,7 @@ section#camping p{
 
 
 margin-bottom: 90px;   
+
 }
 
 
@@ -388,8 +469,10 @@ ul.slides input {
 
 .slide-image img {
 
-    min-width: 100%;
-    height:auto;
+    width: 100%;
+    height:100%;
+   
+    object-fit:cover;
 }
 
 .carousel-controls {
@@ -501,27 +584,190 @@ color:white;
   border-radius: 60px;
 }
 
+/* WATERLEVEL   -  -  -   WATERLEVEL*/
 
-/* OTHER STUFF */
+
+#water-levels-page {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.page-title {
+  background-image: url("../img/optimized-images/water_header.jpg");
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  text-shadow: 6px 5px 3px rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  padding: 200px;
+  text-align: center;
+  color: white;
+}
+
+.page-title h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+#sites {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 30px;
+  justify-items: center;
+}
+
+.site {
+  background-color: #1f2d1f;
+  color: white;
+  width: 800px; 
+  height: 500px; 
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.site h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  padding-left:20px;
+}
+
+.site h2 {
+  position: relative;
+  z-index: 1;
+  padding-right:20px;
+  font-weight: bold;
+  font-size:3rem;
+}
+
+#error {
+  text-align: center;
+  color: red;
+  margin-top: 20px;
+}
+
+#note {
+  text-align: center;
+  padding: 20px;
+
+  color: #1f2d1f; 
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
 
 /* FOOTER */
-#colophon{
-  background-color:#aca694;
-  color:aliceblue;
-  width:100%;
-  padding:20px;
+#colophon {
+  background-color: #aca694;
+  color: aliceblue;
+  width: 100%;
+  padding: 20px;
 }
 
-
-   
-#copyright h6{
-  text-align: center;
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-#colophon p{
-  text-align:center;
-  font-size:0.6rem;
+#footer-left {
+  flex: 1;
+  min-width: 200px;
 }
+
+#footer-left h6 {
+  text-align: left;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  line-height: 3rem;
+}
+#footer-left p{
+  text-align: left;
+  font-size: 20px;
+  margin: 2px 0;
+  line-height: 3rem;
+  text-align: left;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  font-weight: none;
+}
+main#rentals #footer-left p {
+  text-align: left;
+  font-size: 20px;
+  margin: 2px 0;
+  line-height: 3rem;
+  text-align: left;
+  margin-left: 0px ;
+  margin-right: 0px ;
+  font-weight: none;
+}
+
+#footer-right {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#footer-location {
+  min-width: 150px;
+}
+
+#footer-location h6 {
+  text-align: left;
+  font-size: 0.75rem;
+  margin-bottom: 5px;
+}
+
+#footer-location p {
+  text-align: left;
+  font-size: 0.75rem;
+  margin: 2px 0;
+}
+
+#footer-location a {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+#map {
+  width: 700px;
+  height: 300px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-right: 40px;
+}
+.directions-button {
+  display: inline-block;
+  background-color: #5c5c5c;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 8px;
+}
+
+.directions-button:hover {
+  background-color: #444;
+}
+
 
 
 
@@ -530,3 +776,24 @@ color:white;
 
 /* MEDIA QUERIES */
 
+@media (min-width: 1470px) and (max-width: 1700px)  {
+  .site {
+    
+    width: 700px; 
+    height: 500px; 
+  }
+}
+
+@media (max-width: 1470px)  {
+ 
+  .site {
+    
+    width: 600px; 
+    height: 400px; 
+    
+  }
+  
+  
+
+
+}
